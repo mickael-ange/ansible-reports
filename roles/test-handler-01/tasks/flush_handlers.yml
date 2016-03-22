@@ -1,0 +1,3 @@
+---
+- name: Flush handlers at the end of the role
+  meta: flush_handlers

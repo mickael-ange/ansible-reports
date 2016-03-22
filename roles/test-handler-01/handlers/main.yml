@@ -1,0 +1,5 @@
+---
+- name: test handler
+  become: yes
+  shell: echo {{ item }}
+  with_items: "{{ test_name }}"

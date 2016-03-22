@@ -1,0 +1,7 @@
+---
+- name: always changes to trigger handler
+  shell: echo hello
+  changed_when: true
+  notify: test handler
+
+- include: flush_handlers.yml
