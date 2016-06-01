@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  roles:
+    - role: test-vars-01
+      test_myvar: "{{ group_vars_myvar }}"
+  tasks:
+    - debug:
+        msg: "test_myvar={{ test_myvar }} (after role played)"

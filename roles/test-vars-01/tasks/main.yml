@@ -1,0 +1,5 @@
+---
+- debug:
+    msg: "test_myvar={{ test_myvar }} (from roles/test-vars-01/tasks/main.yml)"
+
+- include: debug.yml

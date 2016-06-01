@@ -1,0 +1,3 @@
+---
+- debug:
+    msg: "test_dep1_myvar={{ test_dep1_myvar }} (from included task roles/test-vars-01-dep1/tasks/debug.yml)"

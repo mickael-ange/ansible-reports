@@ -1,0 +1,4 @@
+---
+dependencies:
+  - role: test-vars-01-dep1
+    test_dep1_myvar: "{{ test_myvar }}"
